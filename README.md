@@ -1,4 +1,5 @@
-Scheduling-Algorithms
+# CPU-Scheduling-Algorithms
+
 An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
 
 ## Table of Contents
@@ -101,12 +102,13 @@ An implementation of various CPU scheduling algorithms in C++. The algorithms in
 2- Install g++ compiler and make
 
 ```bash
-sudo apt-get install g++ make
+scoop install main/make
+scoop install main/gcc
 ```
 
 3- Compile the code using `make` command
 
-4- Run the executable file
+4- Run the executable file ./lab.exe
 
 ## Input Format
 
@@ -142,9 +144,3 @@ sudo apt-get install g++ make
 
 - Processes are assumed to be sorted based on the arrival time. If two processes have the same arrival time, then the one with the lower priority is assumed to arrive first.
   > Check the attached [testcases](https://github.com/yousefkotp/CPU-Scheduling-Algorithms/tree/main/testcases) for more details.
-
-## Contributors
-
-- [Yousef Kotp](https://github.com/yousefkotp)
-
-- [Adham Mohammed](https://github.com/adhammohamed1)
