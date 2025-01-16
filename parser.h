@@ -1,7 +1,13 @@
 #ifndef PARSER_H_INCLUDED
 #define PARSER_H_INCLUDED
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <sstream>
+#include <vector>
+#include <tuple>
+#include <unordered_map>
+#include <string>
+#include <utility>
 
 using namespace std;
 
